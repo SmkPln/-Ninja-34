@@ -25,6 +25,7 @@ namespace WindowsFormsApp3
             myConnection.Open();
         }
 
+        //Закриття форми
         private void Form5_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
